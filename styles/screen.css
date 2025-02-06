@@ -3,7 +3,6 @@ body {
     color: #EAE8FF;
     background: #2D3142;
     padding: 0 40px;
-    text-align: center;
 }
 
 nav {
@@ -13,28 +12,9 @@ nav {
     background: #212431;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    list-style-type: none;
-    margin: 0;
-}
-
-nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
-}
 
 h1 {
-    font-size: 8em;
+    font-size: 5em;
     letter-spacing: -2px;
 }
 
@@ -47,4 +27,18 @@ h1 strong {
 
 img.about {
     opacity: 0.5;
+}
+
+.circle{
+    width: 75px;
+    height: 75px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.small-circle{
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 50%;
 }
