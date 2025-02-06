@@ -1,3 +1,18 @@
+:root{
+    --sun: #eb6405;
+    --mercury: #edcfa1;
+    --venus: #8a6329;
+    --earth: green;
+    --mars: red;
+
+    --juipter: #b04f05;
+    --saturn: #ffb05c;
+    --uranus: #382796;
+    --neptune: blue;
+}
+
+
+
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
@@ -29,16 +44,65 @@ img.about {
     opacity: 0.5;
 }
 
-.circle{
+.sun{
     width: 75px;
     height: 75px;
-    background-color: #fff;
+    background-color: var(--sun);
     border-radius: 50%;
 }
 
-.small-circle{
+.mercury-circle{
     width: 55px;
     height: 55px;
-    background-color: #fff;
+    background-color: var(--mercury);
+    border-radius: 50%;
+}
+
+.venus-circle{
+    width: 55px;
+    height: 55px;
+    background-color: var(--venus);
+    border-radius: 50%;
+}
+
+.earth-circle{
+    width: 55px;
+    height: 55px;
+    background-color: var(--earth);
+    border-radius: 50%;
+}
+
+.mars-circle{
+    width: 55px;
+    height: 55px;
+    background-color: var(--mars);
+    border-radius: 50%;
+}
+
+.jupiter-circle{
+    width: 55px;
+    height: 55px;
+    background-color: var(--juipter);
+    border-radius: 50%;
+}
+
+.saturn-circle{
+    width: 55px;
+    height: 55px;
+    background-color: var(--saturn);
+    border-radius: 50%;
+}
+
+.uranus-circle{
+    width: 55px;
+    height: 55px;
+    background-color: var(--uranus);
+    border-radius: 50%;
+}
+
+.neptune-circle{
+    width: 55px;
+    height: 55px;
+    background-color: var(--neptune);
     border-radius: 50%;
 }
