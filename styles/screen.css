@@ -4,19 +4,19 @@
     --venus: #8a6329;
     --earth: green;
     --mars: red;
-
     --juipter: #b04f05;
     --saturn: #ffb05c;
     --uranus: #382796;
     --neptune: blue;
+    --background: black;
 }
 
 
 
 body {
     font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+    color: var(--neptune);
+    background: var(--background);
     padding: 0 40px;
 }
 
@@ -39,15 +39,6 @@ h1 strong {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-img.about {
-    opacity: 0.5;
-}
-
-.top-half{
-
-}
-
 
 
 .sun{
@@ -113,9 +104,10 @@ img.about {
     border-radius: 50%;
 }
 
-.star{
+.main{
     display: flex;
     grid-template-columns: 1fr 2fr;
+    color: #fff;
 }
 
 .planets{
@@ -125,3 +117,4 @@ img.about {
     align-content: space-between;
     gap: 10px;
 }
+
