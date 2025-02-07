@@ -4,7 +4,7 @@
     --venus: #8a6329;
     --earth: green;
     --mars: red;
-    --juipter: #b04f05;
+    --jupiter: #b04f05;
     --saturn: #ffb05c;
     --uranus: #382796;
     --neptune: blue;
@@ -41,78 +41,37 @@ h1 strong {
     -webkit-text-fill-color: transparent;
 }
 
-
-.sun{
-    width: 75px;
-    height: 75px;
+.sun {
+    width: 200px;
+    height: 200px;
     background-color: var(--sun);
     border-radius: 50%;
 }
 
-.mercury-circle{
-    width: 55px;
-    height: 55px;
-    background-color: var(--mercury);
+.mercury-circle, .venus-circle, .earth-circle, .mars-circle, .jupiter-circle, .saturn-circle, .uranus-circle, .neptune-circle {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 
-.venus-circle{
-    width: 55px;
-    height: 55px;
-    background-color: var(--venus);
-    border-radius: 50%;
-}
+.mercury-circle { background-color: var(--mercury); }
+.venus-circle { background-color: var(--venus); }
+.earth-circle { background-color: var(--earth); }
+.mars-circle { background-color: var(--mars); }
+.jupiter-circle { background-color: var(--jupiter); }
+.saturn-circle { background-color: var(--saturn); }
+.uranus-circle { background-color: var(--uranus); }
+.neptune-circle { background-color: var(--neptune); }
 
-.earth-circle{
-    width: 55px;
-    height: 55px;
-    background-color: var(--earth);
-    border-radius: 50%;
-}
-
-.mars-circle{
-    width: 55px;
-    height: 55px;
-    background-color: var(--mars);
-    border-radius: 50%;
-}
-
-.jupiter-circle{
-    width: 55px;
-    height: 55px;
-    background-color: var(--juipter);
-    border-radius: 50%;
-}
-
-.saturn-circle{
-    width: 55px;
-    height: 55px;
-    background-color: var(--saturn);
-    border-radius: 50%;
-}
-
-.uranus-circle{
-    width: 55px;
-    height: 55px;
-    background-color: var(--uranus);
-    border-radius: 50%;
-}
-
-.neptune-circle{
-    width: 55px;
-    height: 55px;
-    background-color: var(--neptune);
-    border-radius: 50%;
-}
-
-.main{
+.main {
+    width: 1200px;
     display: flex;
     grid-template-columns: 1fr 2fr;
     color: #fff;
     gap: 20px;
 }
 
-.planets{
+.planets {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -120,71 +79,12 @@ h1 strong {
     gap: 10px;
 }
 
-.star{
+.star, .mercury, .venus, .earth, .mars, .jupiter, .saturn, .uranus, .neptune {
     background-color: var(--card);
-    padding: 20px;
+    padding: 40px;
     border-radius: 7%;
     color: var(--background);
 }
 
-.mercury{
-    background-color: var(--card);
-    padding: 20px;
-    border-radius: 7%;
-    color: var(--background);
-
-}
-
-.venus{
-    background-color: var(--card);
-    padding: 20px;
-    border-radius: 7%;
-    color: var(--background);
-}
-
-.earth{
-    background-color: var(--card);
-    padding: 20px;
-    border-radius: 7%;
-    color: var(--background);
-}
-
-.mars{
-    background-color: var(--card);
-    padding: 20px;
-    border-radius: 7%;
-    color: var(--background);
-}
-
-.jupiter{
-    background-color: var(--card);
-    padding: 20px;
-    border-radius: 7%;
-    color: var(--background);
-}
-
-.saturn{
-    background-color: var(--card);
-    padding: 20px;
-    border-radius: 7%;
-    color: var(--background);
-}
-
-.uranus{
-    background-color: var(--card);
-    padding: 20px;
-    border-radius: 7%;
-    color: var(--background);
-}
-
-.neptune{
-    background-color: var(--card);
-    padding: 20px;
-    border-radius: 7%;
-    color: var(--background);
-}
-
-.main:hover{
-    background-color: black;
-    
-}
+.main:hover {
+    background-color
