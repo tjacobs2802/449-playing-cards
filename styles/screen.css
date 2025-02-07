@@ -10,6 +10,7 @@
     --neptune: blue;
     --background: black;
     --card: #d9d9d9;
+    --hover: #00ffa6;
 }
 
 
@@ -19,13 +20,6 @@ body {
     color: var(--neptune);
     background: var(--background);
     padding: 0 40px;
-}
-
-nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
 }
 
 
@@ -87,4 +81,10 @@ h1 strong {
 }
 
 .main:hover {
-    background-color
+    background-color: black;
+}
+
+.star:hover, .mercury:hover, .venus:hover, .earth:hover, .mars:hover, .jupiter:hover, .saturn:hover, .uranus:hover, .neptune:hover {
+    background-color: var(--hover);
+    transform: scale(1.1);
+}
